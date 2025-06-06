@@ -6,6 +6,7 @@ import { useEffect } from "react";
 const MarketingApp = () => {
   const ref = useRef(null);
 
+  // use effect
   useEffect(() => {
     if (ref.current) {
       MarketingAppMount(ref.current);
